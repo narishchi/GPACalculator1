@@ -31,8 +31,7 @@ classDiagram
     }
 
     Form1 "1" -- "1" GPACalculator : uses
-
-
+```
 ####คำอธิบายเกี่ยวกับคลาสในระบบ
 1. GPACalculator Class
 คลาส GPACalculator มีฟังก์ชันหลักในการจัดการข้อมูล GPA ของนักศึกษา โดยใช้ List<double> เพื่อเก็บค่า GPA ที่กรอกเข้ามาและคำนวณข้อมูลต่างๆ:
